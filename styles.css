@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.tasks {
+    width: 200px;
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+.week {
+    width: 1300px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+.row {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+
+.item {
+  width: 100px;
+  height: 66px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  min-width: 100px;
+  height: 66px;
+  margin: 0 20px;
+}
+
+.task-list {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.weeks-list {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.hold {
+  border: 5px solid #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #8ed7ed;
+}
